@@ -11,13 +11,13 @@ You can start a workout, track duration, and view detailed session statistics �
 
 ✨ Features
 
-✅ Start & track workout sessions in real-time
-✅ Session timer & rest intervals with pause/resume
-✅ Workout history tracking (saved in LocalStorage)
-✅ Progress dashboard with duration charts
-✅ Export history as CSV or PDF (client-side only)
-✅ Clean UI & responsive layout with Tailwind CSS
-✅ State management via Zustand
+- ✅ Start & track workout sessions in real-time  
+- ✅ Session timer & rest intervals with pause/resume  
+- ✅ Workout history tracking (saved in LocalStorage)  
+- ✅ Progress dashboard with duration charts  
+- ✅ Export history as CSV or PDF (client-side only)  
+- ✅ Clean UI & responsive layout with Tailwind CSS  
+- ✅ State management via Zustand  
 
 | Category           | Technology                                                                         |
 | ------------------ | ---------------------------------------------------------------------------------- |
