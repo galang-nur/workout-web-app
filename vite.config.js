@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/workout-app/',
+  base: '/workout-web-app/',
 })
