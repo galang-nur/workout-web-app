@@ -1,16 +1,47 @@
-# React + Vite
+🏋️‍♂️ Workout Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app built with React + Vite for tracking workout sessions, visualizing progress, and managing exercise history — all stored locally (no backend required).
 
-Currently, two official plugins are available:
+🚀 Live Demo: https://galang-nur.github.io/workout-web-app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧭 Overview
 
-## React Compiler
+Workout Tracker helps you log and monitor your exercise progress directly in your browser.
+You can start a workout, track duration, and view detailed session statistics — even export your data as CSV or PDF.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✨ Features
 
-## Expanding the ESLint configuration
+✅ Start & track workout sessions in real-time
+✅ Session timer & rest intervals with pause/resume
+✅ Workout history tracking (saved in LocalStorage)
+✅ Progress dashboard with duration charts
+✅ Export history as CSV or PDF (client-side only)
+✅ Clean UI & responsive layout with Tailwind CSS
+✅ State management via Zustand
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Category           | Technology                                                                         |
+| ------------------ | ---------------------------------------------------------------------------------- |
+| Framework          | [React 19 + Vite](https://vitejs.dev)                                              |
+| Styling            | [Tailwind CSS v4.1](https://tailwindcss.com)                                       |
+| State Management   | [Zustand](https://github.com/pmndrs/zustand)                                       |
+| Data Visualization | [Recharts](https://recharts.org/en-US)                                             |
+| File Export        | [jsPDF](https://github.com/parallax/jsPDF), [PapaParse](https://www.papaparse.com) |
+
+🧰 Installation & Setup
+
+### 1️⃣ Clone the repository
+```
+git clone https://github.com/galang-nur/workout-web-app.git
+cd workout-web-app
+```
+
+### 2️⃣ Install dependencies
+```
+npm install
+```
+
+### 3️⃣ Run locally
+```
+npm run dev
+```
+
